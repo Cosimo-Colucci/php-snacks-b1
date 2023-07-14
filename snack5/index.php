@@ -7,6 +7,9 @@ Istanziare un indumento, una scarpa e un cappello con il var_dump e verificare
 su schermo le differenze.  -->
 <?php
 
+include_once __DIR__ '.'('/classes/scarpa.php');
+include_once __DIR__ '.'('/classes/cappello.php');
+
 class Indumento{
     public $materiale;
 
